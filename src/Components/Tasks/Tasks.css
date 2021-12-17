@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+.cards{
+
+    height: 100px;
+    background-color:#FFFFFF;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius:20px;
+    padding: 10px;
+   box-shadow: 0 8px 6px -6px rgb(165, 163, 163);
+	  
+    
+}
+.right{
+    padding-top: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+h4{color:#555A8F;
+font-family:'DM Sans', sans-serif;
+font-size:20px;
+font-weight:500;}
+button{
+background-color:#FFEBD5;
+border: none;
+height: 25px;
+border-radius: 5px;
+color:#e77b06;
+font-family:'DM Sans', sans-serif;
+}
+
+.cards:hover {
+    background-color:#F7F5FC;
+  }

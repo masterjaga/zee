@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color:rgb(198, 212, 208);
+
+}
+button
+{Height: 200px;
+ border-radius: 10%;
+ Width:250px;
+ border: 1px solid black;
+  outline:none;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+ }

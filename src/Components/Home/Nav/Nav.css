@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+
+.Topflex{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F9FBFD;
+    border-style: solid;
+    border-color: rgb(233, 230, 230);
+    border-radius: 15px;
+    font-family: 'DM Sans', sans-serif;
+    border-width: 2px;
+    
+
+}
