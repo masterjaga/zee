@@ -1,30 +1,29 @@
 
 import React,{useState} from 'react';
 
-import Batch from './batch';
+import Batch from './Batch';
+import "./Admin.css"
 
-import { useNavigate} from "react-router-dom";
+import { useNavigate,Route,Routes, Outlet} from "react-router-dom";
 function Admin() {
 
    const navigate = useNavigate()
-    const navigateToBatch = () => { navigate('./batch', { replace: true })} ;
-   /*  const navigateToMentors = () => window.location.href='/Mentors';
-    const navigateToStudent = () => window.location.href='/Teachers';
-    const navigateToCourse = () => window.location.href='/course';
- */
+    const navigateToBatch = () => { navigate('Batch',{ replace: true })} ;
+   const navigateToMentors = () =>{ navigate('Mentors', { replace: true })};
+   const navigateToStudent = () => { navigate('Teachers', { replace: true })};
+   const navigateToCourse = () =>{ navigate('Course', { replace: true })};
+
     return ( <><div><h2>MERN STACK ADMIN</h2></div>
+  
+  <div className='admincontainer'>
+    <div className='Buttons' onClick={navigateToBatch}>ALL Students</div><br/>  
+    <div className='Buttons'onClick={navigateToMentors}>Mentors</div><br/>
+    <div className='Buttons' onClick={navigateToStudent}>Teachers</div><br/>
+    <div className='Buttons' onClick={navigateToCourse}>course</div><br/>
+  </div>
     
-          <span path="/Batch" element={<Batch/>} />
-         {/*  <Route path="/Mentors" element={<Mentors/>} />
-          <Route path="/Teachers" element={<Teachers/>} />
-          <Route path="/Course" element={<Course/>} /> */}
-     <button onClick={navigateToBatch}>ALL Students</button>
     
-    
-    
-   {/*  <button onClick={navigateToMentors}>Mentors</button>
-    <button onClick={navigateToStudent}>Teachers</button>
-    <button onClick={navigateToCourse}>course</button> */}
+    <Outlet/>
     
     </> );
 }

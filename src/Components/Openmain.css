@@ -1,0 +1,103 @@
+
+.fixed{
+    width: 100px;
+    background-color:white;
+    height:100vh;
+    border-left: 0.01px;
+    border-color: rgb(189, 186, 186);
+    border-style: solid;
+    color: rgb(85 90 143);
+    font-size: 18px;
+    text-decoration: none;
+    transform: translateZ(0) scale(1);
+    transition: all .1s linear;
+    -webkit-transform: translateZ(0) scale(1);
+    -webkit-transition: all .15s linear;
+
+}
+.fixed:hover{width: 200px !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 18px;
+    text-decoration: none;
+    transform: translateZ(0) scale(1);
+    transition: all .1s linear;
+    -webkit-transform: translateZ(0) scale(1);
+    -webkit-transition: all .25s linear;}
+
+ li{
+    width:90%;
+    margin: 10%;
+    height: 30px;
+    position: relative;
+    display: table;
+    }
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;}
+
+
+.sessionroadmapdo{
+    background-color: blue;
+    border-radius: 50%;
+}
+.showing#active{
+     
+    background-color: yellow;
+}
+
+.blue{
+    color: rgb(75 13 186);
+    display: flex;
+    margin:2%;
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 40px;
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-bottomright: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.white{
+    color: #555a8f;
+    display: flex;
+    display: flex;
+    margin:2%;
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 40px;
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-bottomright: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+  
+}
+.white:hover{
+  color: rgb(75 13 186);
+}
+
+img{
+    color: rgb(75 13 186);
+    height:10em;
+    margin-right: 10%;
+    margin-left: 0%;
+}
+.for{
+    margin:5%;
+}
+.mainbody{
+    display:grid;
+    grid-template-columns: 250px 1fr;
+}
+svg{
+
+    fill: rgb(126, 142, 159);
+    width: 22px;
+    height: 22px;
+}
+.mains{
+    display:grid;
+    grid-template-columns: 100px 1fr;
+
+}

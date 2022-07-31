@@ -1,0 +1,30 @@
+.header{
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5%;
+    width:auto;
+    height: 100px;
+}
+.button{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+    background-color: blue;
+    border-radius:20%;
+    width: 800px;
+    height: 100px;
+}
+.selections{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.sessionroadmap{
+    background-color:magenta;
+    border-radius: 12%;
+}
+
+
